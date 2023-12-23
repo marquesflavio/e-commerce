@@ -14,6 +14,13 @@ Dentro da pasta app, criei uma pasta (root) onde vai ficar o arquivo principal "
 
 Para a autenticação usei Clerk Authentication
 
-Montei a autenticação cfe disponível (usando Google e e-mail), criei o arquivo .env e coloquei no gitignore do projeto, pois lá estarão informações de validações importantes.
+Montei a autenticação cfe disponível na documentação (usando Google e e-mail), criei o arquivo .env e coloquei no gitignore do projeto, pois lá estarão informações de validações importantes.
 
 instalei o Clerk > npm install @clerk/nextjs e passei, cfe documentação as alterações no layout.tsx da pasta app e inclui o arquivo middleware.ts que é específico para o Clerk.
+
+## Modal Store
+
+Mais um componente Shadcn UI, dessa vez o Dialog, onde criei uma variação dele e chamei de Modal.
+Instalei também, via npm install zustand.
+
+### time 1:06:21
