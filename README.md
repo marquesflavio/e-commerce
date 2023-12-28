@@ -23,4 +23,12 @@ instalei o Clerk > npm install @clerk/nextjs e passei, cfe documentação as alt
 Mais um componente Shadcn UI, dessa vez o Dialog, onde criei uma variação dele e chamei de Modal.
 Instalei também, via npm install zustand.
 
-### time 1:06:21
+## Form
+
+Outro componente importante para o projeto é o Form. Utilizei do Shadcn ui o Form e o Input. 
+O Form é criado utilizando o react-hook-form do React.
+As validações são feitas pelo zod. Portanto, é necessário criar um objeto de validação (formSchema) dentro do store-modal com as validações do zod.
+
+conteúdo adicional: https://react-hook-form.com/docs/useform 
+
+### time 1:21:30
