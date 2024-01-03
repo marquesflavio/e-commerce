@@ -31,4 +31,14 @@ As validações são feitas pelo zod. Portanto, é necessário criar um objeto d
 
 conteúdo adicional: https://react-hook-form.com/docs/useform 
 
-### time 1:21:30
+## Prisma setup
+
+O Prisma (https://www.prisma.io/) é uma ferramenta de persistência de dados para aplicações React. Ele permite que você crie um modelo de dados relacional para o seu aplicativo e, em seguida, use-o para acessar e gerenciar dados em um banco de dados relacional.
+
+## Planet Scale
+
+Criei junto ao Planet Scale minha base de dados e integrei com o Prisma no meu projeto. Planet Scale é o database do projeto. Seguindo as orientações foi possível pegar as autenticações de .env e credenciais de acesso ao banco.
+
+Após os ajustes necessários no schema.prisma, foi possível configurar no terminal o npx prisma generate e o npx prisma db push (para enviar para o database)
+
+### time 1:32:00

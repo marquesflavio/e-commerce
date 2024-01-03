@@ -18,7 +18,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
 const formSchema = z.object ({
-    name: z.string().min(1),
+    name: z.string().min(2),
 });
 
 
@@ -29,7 +29,7 @@ const onSubmit = async (values: z.infer<typeof formSchema>) => {
 
 export const StoreModal = () => {
     const storeModal = useStoreModal();
-    
+
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
         defaultValues: {
