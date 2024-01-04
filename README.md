@@ -41,4 +41,10 @@ Criei junto ao Planet Scale minha base de dados e integrei com o Prisma no meu p
 
 Após os ajustes necessários no schema.prisma, foi possível configurar no terminal o npx prisma generate e o npx prisma db push (para enviar para o database)
 
-### time 1:32:00
+## Providers
+
+Utilizei o react-hot-toast, adicionado a importação na pasta providers, dentro do arquivo toast-provider.tsx. 
+Basicamente, ele pula a hierarquia obrigatória de passar props para cada componente, na sua árvore de componentes.
+Utilizei para exibir mensagens de sucesso ou falha na tela, ao invés de console.log(error).
+
+### time 1:45:00
