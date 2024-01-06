@@ -47,4 +47,10 @@ Utilizei o react-hot-toast, adicionado a importação na pasta providers, dentro
 Basicamente, ele pula a hierarquia obrigatória de passar props para cada componente, na sua árvore de componentes.
 Utilizei para exibir mensagens de sucesso ou falha na tela, ao invés de console.log(error).
 
-### time 1:45:00
+### Segunda semana
+
+## Navbar
+
+Comecei a fazer o menu nav. Salvei o arquivo apenas na pasta de components, porém fora dos demais, pois não é um arquivo que será reutilizado, será feito apenas uma vez.
+
+### time 2:11:00
