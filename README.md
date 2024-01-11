@@ -53,6 +53,5 @@ Utilizei para exibir mensagens de sucesso ou falha na tela, ao invés de console
 
 Comecei a fazer o menu nav. Salvei o arquivo apenas na pasta de components, porém fora dos demais, pois não é um arquivo que será reutilizado, será feito apenas uma vez.
 
-## verificando utilização da lib zod para validação de dados
 
 ### time 2:43:27 
